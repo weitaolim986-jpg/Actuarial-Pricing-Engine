@@ -19,9 +19,14 @@ The XGBoost challenger model outperformed the traditional GLM baseline significa
 * **XGBoost Gini Index:** 36.88%
 * **Net Lift:** +2.86% 
 
-**
+*<img width="854" height="552" alt="actuarial lift chart" src="https://github.com/user-attachments/assets/587609bf-cc04-4b72-9edd-0f2f141c2528" />*
+
+*<img width="861" height="629" alt="actuarial lorenz curves" src="https://github.com/user-attachments/assets/21e08c7f-0d82-44ee-bb5c-dae20fe61ecd" />*
+
 
 ## 5. Regulatory Compliance & Explainable AI (XAI)
 Machine Learning models are often rejected by insurance regulators (e.g., MAS, FCA) due to their "black-box" nature. To ensure regulatory compliance and assist underwriters, this project integrates **SHAP (SHapley Additive exPlanations)**. The web app dynamically generates a SHAP waterfall chart for every quote, mathematically proving exactly which features drove the premium up or down.
 
-*(Insert a screenshot of your Streamlit app with the SHAP chart visible here!)*
+*<img width="881" height="744" alt="Screenshot 2026-06-03 at 7 32 12 PM" src="https://github.com/user-attachments/assets/3b12f7f1-df1c-4404-ac8d-19b1e897a8d1" />*
+
+Screenshot of the app
