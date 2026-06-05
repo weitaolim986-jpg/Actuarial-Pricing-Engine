@@ -3,7 +3,7 @@
 [![Live Streamlit App](https://img.shields.io/badge/Live_App-Click_Here-blue.svg)](https://actuarial-pricing-engine-vjrpcku5ukswsgdt2dvo9z.streamlit.app/)
 
 ## 1. Executive Summary
-Developed an end-to-end machine learning pricing engine to predict auto insurance claims frequency and severity. By migrating from a traditional Maximum Likelihood Gamma/Poisson GLM to a gradient-boosted tree architecture (XGBoost), this project identified non-linear risk interactions, resulting in a **+2.86% absolute lift in the Gini Index**. The model is deployed as an interactive Streamlit web application featuring real-time SHAP explainability.
+Developed an end-to-end machine learning pricing engine to predict auto insurance claims frequency and severity. By migrating from a traditional Maximum Likelihood Gamma/Poisson GLM to a gradient-boosted tree architecture (XGBoost), this project identified non-linear risk interactions, resulting in a **+7.39% absolute lift in the Gini Index**. The model is deployed as an interactive Streamlit web application featuring real-time SHAP explainability.
 
 ## 2. The Business Problem
 Traditional Generalized Linear Models (GLMs) are the industry standard for pricing, but they struggle to capture complex, non-linear interactions between driver features (e.g., the compounding risk of a young driver in a high-powered vehicle with a poor claims history). This leaves "money on the table" by underpricing risky profiles and overpricing safe profiles. 
@@ -15,13 +15,13 @@ Traditional Generalized Linear Models (GLMs) are the industry standard for prici
 
 ## 4. Financial Impact & Results
 The XGBoost challenger model outperformed the traditional GLM baseline significantly:
-* **GLM Baseline Gini Index:** 34.02%
-* **XGBoost Gini Index:** 36.88%
-* **Net Lift:** +2.86% 
+* **GLM Baseline Gini Index:** 31.04%
+* **XGBoost Gini Index:** 38.43%
+* **Net Lift:** +7.39% 
 
-*<img width="854" height="552" alt="actuarial lift chart" src="https://github.com/user-attachments/assets/587609bf-cc04-4b72-9edd-0f2f141c2528" />*
+*<img width="854" height="552" alt="actuarial_double_lift_chart" src="https://github.com/user-attachments/assets/0923d346-a7a7-4dbe-ab80-33b216846826" />*
 
-*<img width="861" height="629" alt="actuarial lorenz curves" src="https://github.com/user-attachments/assets/21e08c7f-0d82-44ee-bb5c-dae20fe61ecd" />*
+*<img width="861" height="629" alt="actuarial_lorenz_curve" src="https://github.com/user-attachments/assets/fc0e814e-1271-41c7-adb6-5a51e7f9e375" />*
 
 
 ## 5. Regulatory Compliance & Explainable AI (XAI)
