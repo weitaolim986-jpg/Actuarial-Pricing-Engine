@@ -27,6 +27,6 @@ The XGBoost challenger model outperformed the traditional GLM baseline significa
 ## 5. Regulatory Compliance & Explainable AI (XAI)
 Machine Learning models are often rejected by insurance regulators (e.g., MAS, FCA) due to their "black-box" nature. To ensure regulatory compliance and assist underwriters, this project integrates **SHAP (SHapley Additive exPlanations)**. The web app dynamically generates a SHAP waterfall chart for every quote, mathematically proving exactly which features drove the premium up or down.
 
-*<img width="881" height="744" alt="Screenshot 2026-06-03 at 7 32 12 PM" src="https://github.com/user-attachments/assets/3b12f7f1-df1c-4404-ac8d-19b1e897a8d1" />*
+*<img width="810" height="734" alt="Screenshot 2026-06-05 at 9 21 25 PM" src="https://github.com/user-attachments/assets/4ea72cea-8663-4ef5-9092-3413210d971f" />*
 
 Screenshot of the app
